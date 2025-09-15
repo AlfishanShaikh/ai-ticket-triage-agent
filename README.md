@@ -44,14 +44,14 @@ Our solution automates the entire ticket triage process using advanced AI models
 
 We have also prepared a detailed presentation for AI Ticket Triage Agent, which you can view and download here:  
 
-[📥 Download AI Ticket Triage Agent Presentation](https://drive.google.com/file/d/1kfaMZ1Gp5kwIHEyXgZvSCwjbhP_014M8/view?usp=sharin)  
+[📥 Download AI Ticket Triage Agent Presentation](https://drive.google.com/file/d/1fIpnIlLNVoTRpV2PvUvCXF8-_IGDZvNS/view?usp=sharing)  
 
 
 ---
 
 # 🤖 AI Ticket Triage Agent – Intelligent IT Support Automation   
 
-![AI Ticket Triage Agent Banner](image)
+![AI Ticket Triage Agent Banner](https://github.com/AlfishanShaikh/ai-ticket-triage-agent/blob/9a35fa4cbeddea5ca7b9985ed33c73ad07f0ce29/banner.png)
 
 AI Ticket Triage Agent is a powerful automation solution built during the **SuperHack 2025 Hackathon (powered by Hack2Skill)**.  
 It provides **automated ticket classification**, ⚡ **AI-driven prioritization and assignment**, and 📊 **real-time performance insights** — ensuring IT teams and MSPs can resolve critical issues faster, smarter, and with minimal manual effort.
