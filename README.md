@@ -44,17 +44,17 @@ Our solution automates the entire ticket triage process using advanced AI models
 
 We have also prepared a detailed presentation for AI Ticket Triage Agent, which you can view and download here:  
 
-[📥 Download QuickAid Presentation](https://drive.google.com/file/d/1kfaMZ1Gp5kwIHEyXgZvSCwjbhP_014M8/view?usp=sharin)  
+[📥 Download AI Ticket Triage Agent Presentation](https://drive.google.com/file/d/1kfaMZ1Gp5kwIHEyXgZvSCwjbhP_014M8/view?usp=sharin)  
 
 
 ---
 
-# 🚑 QuickAid – Emergency Healthcare App  
+# 🤖 AI Ticket Triage Agent – Intelligent IT Support Automation   
 
-![QuickAid Banner](https://github.com/AlfishanShaikh/QuickAid/blob/a4335b3762a9ed0bfada7ab3db73c9c89968492d/banner.jpg)
+![AI Ticket Triage Agent Banner](image)
 
-QuickAid is a life-saving mobile application built during the **Code Veda Hackathon 2025 (powered by Hack2Skill)**.  
-It provides **instant access to emergency services**, 🤖 **AI-powered first-aid guidance**, and 📍 **real-time location sharing** — ensuring no second is wasted when every moment counts.
+AI Ticket Triage Agent is a powerful automation solution built during the **SuperHack 2025 Hackathon (powered by Hack2Skill)**.  
+It provides **automated ticket classification**, ⚡ **AI-driven prioritization and assignment**, and 📊 **real-time performance insights** — ensuring IT teams and MSPs can resolve critical issues faster, smarter, and with minimal manual effort.
 
 ---
 
@@ -66,6 +66,50 @@ It provides **instant access to emergency services**, 🤖 **AI-powered first-ai
 - **Database:** AWS DynamoDB / PostgreSQL for storing ticket logs and resolution history.  
 - **Automation & Monitoring:** AWS Lambda (serverless actions) and CloudWatch (monitoring).  
 - **Integration:** SuperOps API for ticket data management.
+
+---
+
+## 📂 AI-Ticket-Triage-Agent Structure
+
+```bash
+AI-Ticket-Triage-Agent/
+│
+├── frontend/ # Frontend (React.js dashboard)
+│ ├── src/
+│ │ ├── components/ # Reusable UI components (e.g., ticket cards, buttons)
+│ │ ├── pages/ # Application screens (Dashboard, Ticket View, Analytics)
+│ │ ├── assets/ # Images, icons, logos
+│ │ ├── utils/ # Helper functions
+│ │ └── App.js # Main React entry point
+│ ├── package.json # Frontend dependencies
+│ └── README.md # Frontend-specific README
+│
+├── backend/ # Backend (Node.js / Python API)
+│ ├── routes/ # API routes (tickets, classification, assignment)
+│ ├── models/ # Database models (ticket, technician, logs)
+│ ├── controllers/ # Business logic handling route requests
+│ ├── services/ # External API integrations (SuperOps, OpenAI, AWS services)
+│ ├── server.js # Backend server entry point
+│ ├── package.json # Backend dependencies
+│ └── README.md # Backend-specific README
+│
+├── ai/ # AI Model Integration
+│ ├── inference/ # Scripts for calling OpenAI GPT / AWS Bedrock APIs
+│ ├── vector-store/ # Historical resolution data storage logic
+│ └── README.md # AI integration guide
+│
+├── docs/ # Documentation
+│ ├── architecture.md # System design and architecture diagrams
+│ ├── api-reference.md # API endpoints documentation
+│ └── hackathon-submission.md # Problem, solution, features, pitch notes
+│
+├── assets/ # Screenshots, diagrams, logos for the project
+│
+├── .gitignore # Standard Git ignore file
+├── LICENSE # MIT License
+├── README.md # Main project README
+└── CONTRIBUTING.md # Contribution guidelines
+```
 
 ---
 
@@ -127,4 +171,18 @@ Our solution does more than automation:
 **AI Ticket Triage Agent – Redefining IT Support.**  
 An intelligent solution designed for the modern era of managed services — automated, scalable, and adaptive.  
 Born at SuperHack 2025 to empower IT teams and MSPs with AI-driven efficiency and actionable insights.
+
+---
+
+## ⚠️ Note  
+
+This is currently an **idea and prototype** developed for the SuperHack Hackathon 2025.  
+We are actively working on features and improvements to make AI Ticket Triage Agent production-ready.  
+
+---
+
+## © Copyright  
+
+© 2025 Shaikh Alfishan. All rights reserved.  
+
 
